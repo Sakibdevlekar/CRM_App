@@ -15,15 +15,15 @@ Three kinds of users :
 Customer
 Engineer
 Admin
-- Engineer/Admin registration will be supported through API, but it needs to be approved by the ADMIN
-- Customer registration will be supported through API with no approval needed from the ADMIN
-- API to support the ADMIN login. Login API call should return the access token, which will be used to make all
+• Engineer/Admin registration will be supported through API, but it needs to be approved by the ADMIN
+• Customer registration will be supported through API with no approval needed from the ADMIN
+• API to support the ADMIN login. Login API call should return the access token, which will be used to make all
  the other calls
-- API to support the CUSTOMER login. Login API call should return the access token, which will be used to make
+• API to support the CUSTOMER login. Login API call should return the access token, which will be used to make
  all the other calls
-- API to support the ENGINEER login. Login API call should return the access token, which will be used to make all
+• API to support the ENGINEER login. Login API call should return the access token, which will be used to make all
  the other calls.
-- Login API will succeed only if the ENGINEER registration request has been approved by the ADMIN. Proper error
+• Login API will succeed only if the ENGINEER registration request has been approved by the ADMIN. Proper error
  message in the case ADMIN has yet not approved/rejected the registration request
  
  
