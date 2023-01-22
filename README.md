@@ -11,10 +11,10 @@ the ticket
 
 ## Feature 1 : User Authentication Authorization APIs
 
-Three kinds of users :
-**Customer**
-**Engineer**
-**Admin**
+**Three kinds of users :**
+- **Customer**
+- **Engineer**
+- **Admin**
 - Engineer/Admin registration will be supported through API, but it needs to be approved by the ADMIN
 - Customer registration will be supported through API with no approval needed from the ADMIN
 - API to support the ADMIN login. Login API call should return the access token, which will be used to make all
