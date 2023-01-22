@@ -65,6 +65,6 @@ the above operations
 - Scheduled job to regularly check for any new request and then send email notifications
 - to every one listed
 
-You can get the code fot [Notification Service] here(https://github.com/Sakibdevlekar/notification)
+You can get the code fot [Notification Service](https://github.com/Sakibdevlekar/notification).
  
  
