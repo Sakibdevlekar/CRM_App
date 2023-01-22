@@ -70,7 +70,7 @@ the above operations
 
 ## Feature 6 : Integrating the Notification Service with CRM application
 
--CRM APP should call Notification service, every time a new ticket is created or an existing 
+- CRM APP should call Notification service, every time a new ticket is created or an existing 
 ticket is updated.
 
 
