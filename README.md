@@ -1,7 +1,7 @@
 # CRM_App
 
 
-# Problem Statement
+## Problem Statement
 
  A system which would handle the complaints logged by the customer.
 The complaints will be logged as a ticket and they will be fixed by the engineer. We need to manage this complete 
@@ -9,12 +9,12 @@ life-cycle using our application.
 Admin can keep track of the complete life cycle of the issue from logging of complaints as a ticket, fixing and updating 
 the ticket
 
-# Feature 1 : User Authentication Authorization APIs
+## Feature 1 : User Authentication Authorization APIs
 
 Three kinds of users :
-Customer
-Engineer
-Admin
+**Customer**
+**Engineer**
+**Admin**
 - Engineer/Admin registration will be supported through API, but it needs to be approved by the ADMIN
 - Customer registration will be supported through API with no approval needed from the ADMIN
 - API to support the ADMIN login. Login API call should return the access token, which will be used to make all
@@ -27,7 +27,7 @@ Admin
  message in the case ADMIN has yet not approved/rejected the registration request
  
  
- # Feature 2 : Authenticating and Authorizing the User APIs
+ ## Feature 2 : Authenticating and Authorizing the User APIs
 
 - API for getting the list of all users
 - API for the getting the user based on User ID
@@ -37,7 +37,7 @@ the above operations
 - ENGINEER/ADMIN user should be able to login successfully after the approval from ADMIN user
 
 
-# Feature 3 : Ticket Creation
+## Feature 3 : Ticket Creation
 - API for the authenticated user to raise a request
 - API for the authenticated user to update an existing request
 - API for an authenticated user to check the status of the request
@@ -46,7 +46,7 @@ the above operations
 - Registered Engineer if any should be assigned the ticket automatically
 
 
-# Feature 4 : Ticket Manipulations and ADMIN capabilities
+## Feature 4 : Ticket Manipulations and ADMIN capabilities
 - API for authenticated Engineer to update the ticket
 - Updated ticket should be visible to the customers immediately
 - API for authenticated Engineer to search for the ticket
@@ -59,10 +59,12 @@ the above operations
 - API for the authenticated ADMIN to get the list of all the ENGINEER registration requests
 - API for the authenticated ADMIN to Accept/reject the ENGINEER registration requests
 
-# Feature 5 : Creation of the Notification Service
+## Feature 5 : Creation of the Notification Service
 - API for raising the notification request
 - API to get the result of the notification request
 - Scheduled job to regularly check for any new request and then send email notifications
 - to every one listed
+
+You can get the code fot [Notification Service] here(https://github.com/Sakibdevlekar/notification)
  
  
