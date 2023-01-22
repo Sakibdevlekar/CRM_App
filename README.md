@@ -60,11 +60,13 @@ the above operations
 - API for the authenticated ADMIN to Accept/reject the ENGINEER registration requests
 
 ## Feature 5 : Creation of the Notification Service
+
+ - ##### Code for [Notification Service](https://github.com/Sakibdevlekar/notification)
 - API for raising the notification request
 - API to get the result of the notification request
 - Scheduled job to regularly check for any new request and then send email notifications
 - to every one listed
 
- ##### Code for [Notification Service](https://github.com/Sakibdevlekar/notification).
+
  
  
